@@ -1,6 +1,5 @@
 import Appbar from "@/components/Appbar";
 import WalletInput from "@/components/WalletInput";
-import Image from "next/image";
 
 export default function Home() {
   return (

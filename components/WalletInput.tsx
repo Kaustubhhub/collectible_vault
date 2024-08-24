@@ -1,7 +1,7 @@
 "use client"
 import React, { useState } from 'react'
 
-const NftViewBox = () => {
+const WalletInput = () => {
     const [walletAddress, setWalletAddress] = useState('')
 
     const handleInputChange = (event: any) => {
@@ -35,4 +35,4 @@ const NftViewBox = () => {
     )
 }
 
-export default NftViewBox
+export default WalletInput
